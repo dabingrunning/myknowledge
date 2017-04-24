@@ -22,11 +22,26 @@
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");//yyyy-MM-dd HH:mm:ss  年月日 时分秒
     ````
 
-给纯色背景添加颜色
+##### 给纯色背景添加颜色
 -----
  `
     image.setColorFilter(Color color);
  `
+
+### 关于编程的一些想法
+---
+    后台返回的错误码和错误信息即errorCode 和errorMessage应该是属于同一层而不应该分划到数据结构中的两个部分, 如下:
+
+```
+    {
+            errorCode:10001,
+            errorMessage:"密码错误",
+            "data":{
+                ...
+                }
+    }
+```
+
 
 
 

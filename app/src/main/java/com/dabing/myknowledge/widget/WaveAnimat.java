@@ -19,7 +19,7 @@ public class WaveAnimat extends View {
     // 波纹颜色
     private static final int WAVE_PAINT_COLOR = 0x66fe6498;
     // y = Asin(wx+b)+h
-    private static final float STRETCH_FACTOR_A = 20;
+    private static final float STRETCH_FACTOR_A = 10;
     private static final int OFFSET_Y = 50;
     // 第一条水波移动速度
     private static final int TRANSLATE_X_SPEED_ONE = 3;
@@ -51,7 +51,7 @@ public class WaveAnimat extends View {
         mXOffsetSpeedOne = DensityUtil.dip2px(context, TRANSLATE_X_SPEED_ONE);
         mXOffsetSpeedTwo = DensityUtil.dip2px(context, TRANSLATE_X_SPEED_TWO);
         mXOffsetSpeedThree = DensityUtil.dip2px(context, TRANSLATE_X_SPEED_THREE);
-        max = DensityUtil.dip2px(context, 10);
+        max = DensityUtil.dip2px(context, STRETCH_FACTOR_A);
         // 初始绘制波纹的画笔
         mWavePaint = new Paint();
         // 去除画笔锯齿
