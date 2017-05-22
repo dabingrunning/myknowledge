@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.dabing.myknowledge.MainActivity">
 
     <com.dabing.myknowledge.widget.WaveAnimat
         android:layout_width="match_parent"
         android:layout_height="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="2017.4" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/month"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/month"
+            android:orientation="vertical">
+
+            <com.dabing.myknowledge.widget.calendarviews.WeekBarView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                app:week_text_color="@color/rest_color" />
+
+            <com.dabing.myknowledge.widget.calendarviews.week.WeekCalendarView
+                android:id="@+id/wcvCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:week_count="3"
+                android:overScrollMode="never"
+                app:week_day_text_size="13" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:onClick="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#f48956"
+        android:text="下一页"/>
 
 </LinearLayout>

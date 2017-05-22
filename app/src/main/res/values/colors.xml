@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    <color name="test">#FF8594</color>
+    <color name="main_color">#FF8594</color>
+    <color name="normal_calender_color">#222222</color>
+    <color name="selected_calender_color">#ffffff</color>
+    <color name="rest_color">#cccccc</color>
+    <color name="bottom_tab_color_unchecked">#999999</color>
+    <color name="bottom_tab_color_checked">#54bc3f</color>
 </resources>

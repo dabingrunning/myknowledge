@@ -17,16 +17,22 @@
 * 2 数字保留小数问题：利用BigDecimal.setScale();
 
 ##### 时间格式化
-*
-    ```java
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");//yyyy-MM-dd HH:mm:ss  年月日 时分秒
-    ````
+            格式如下：
+                  SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");//yyyy-MM-dd HH:mm:ss  年月日 时分秒
 
 ##### 给纯色背景添加颜色
------
- `
-    image.setColorFilter(Color color);
- `
+   image.setColorFilter(Color color);
+
+#### 渐变色
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle" >
+            <gradient
+                android:centerColor="#ff00ff00"
+                android:endColor="#ff0000ff"
+                android:startColor="#ffff0000"
+                android:type="linear" />
+            <size android:height="4dp"/>
+        </shape>
 
 ### 关于编程的一些想法
 ---
