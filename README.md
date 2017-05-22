@@ -34,6 +34,10 @@
             <size android:height="4dp"/>
         </shape>
 
+
+#### 可拖拽的View
+![image](http://ss1.sinaimg.cn/large/808ed7c5ly1ffua3e6i1bg206d0ain7z&690)
+
 ### 关于编程的一些想法
 ---
     后台返回的错误码和错误信息即errorCode 和errorMessage应该是属于同一层而不应该分划到数据结构中的两个部分, 如下:
