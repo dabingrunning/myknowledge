@@ -36,6 +36,8 @@
 
 
 #### 可拖拽的View
+[DragFloatView.java](/app/src/main/com/dabing/myknowledge/widget/DragFloatView)
+
 ![image](/gif/视频1.gif)
 
 ### 关于编程的一些想法
@@ -51,6 +53,15 @@
                 }
     }
 ```
+
+#### 计划
+>    尝试自己用Retrofit + RxJava 封装一套网络框架
+
+* 2017-06-01  开始
+    * 学习RxJava
+
+    ---
+
 
 
 
