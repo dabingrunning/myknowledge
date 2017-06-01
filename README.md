@@ -36,7 +36,7 @@
 
 
 #### 可拖拽的View
-![image](http://ss1.sinaimg.cn/large/808ed7c5ly1ffua3e6i1bg206d0ain7z&690)
+![image](/gif/视频1.gif)
 
 ### 关于编程的一些想法
 ---
