@@ -36,7 +36,7 @@
 
 
 #### 可拖拽的View
-[DragFloatView.java](/app/src/main/com/dabing/myknowledge/widget/DragFloatView)
+[DragFloatView.java](/app/src/main/com/dabing/myknowledge/widget/DragFloatView.java)
 
 ![image](/gif/视频1.gif)
 
