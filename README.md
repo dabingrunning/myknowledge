@@ -61,6 +61,15 @@
     * 学习RxJava
 
     ---
+###Android Studio使用中的问题
+     遇到
+     ```   
+     Failure details: Bundle[{android.content.pm.extra.STATUS=1, 
+     android.content.pm.extra.PACKAGE_NAME=ir.esfandune.mohsen, 
+     android.content.pm.extra.LEGACY_STATUS=-1, 
+     android.content.pm.extra.STATUS_MESSAGE=DELETE_FAILED_INTERNAL_ERROR}]
+     ```
+     关闭intantRun
 
 
 
