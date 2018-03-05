@@ -59,6 +59,15 @@
 
 * 2017-06-01  开始
     * 学习RxJava
+    *配置
+    ···
+     compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    ···
+
 
     ---
 ###Android Studio使用中的问题
